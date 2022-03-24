@@ -1,0 +1,52 @@
+.master-head {
+  height: 100vh;
+  padding-top: 7.5rem;
+  padding-bottom: 5rem;
+  color: #fff;
+  background: #1e213a;
+
+  .container {
+    background: #1e213a;
+  }
+}
+
+.navbar {
+  background: #6151a4;
+
+  a {
+      display: block;
+      width: 145px;
+      height: 60px;
+      background: url('../assets/images/logo.png');
+      background-size: contain;
+  }
+}
+
+.highlight {
+  color: #ffdd00;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.bg_1 {
+  position: absolute;
+  top: 65px;
+  right: 40px;
+  width: 112px;
+}
+
+.bg_3 {
+  float: right;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffdd00;
+}
+
+@media (max-width: 770px){
+  .bg_2 {
+    width: 200px;
+  }
+}
